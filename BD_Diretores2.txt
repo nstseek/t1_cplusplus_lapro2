@@ -1,0 +1,24 @@
+#
+Woody Allen
+--O Homem Irracional (2015)
+--Magia ao Luar (2014)
+--Meia-Noite em Paris (2011)
+--Você Vai Conhecer o Homem dos Seus Sonhos (2010)
+--Vicky Cristina Barcelona (2008)
+--Scoop - O Grande Furo (2006)
+--Match Point - Ponto Final (2005)
+--Celebridades (1998)
+--Desconstruindo Harry (1997)
+--Todos Dizem Eu Te Amo (1996)
+#
+Steven Spielberg
+--Ponte dos Espiões (2015)
+--Indiana Jones e o Reino da Caveira de Cristal (2008)
+--Guerra dos Mundos (2005)
+--O Terminal (2004)
+--Prenda-me Se For Capaz (2002)
+--Minority Report - A Nova Lei (2002)
+--O Resgate do Soldado Ryan (1998)
+--Amistad (1997)
+--Hook - A Volta do Capitão Gancho (1991)
+--Indiana Jones e a Última Cruzada (1989)

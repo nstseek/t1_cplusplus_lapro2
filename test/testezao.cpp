@@ -17,8 +17,6 @@ class seila {
 };
 
 int main() {
-    int lul = 59;
-    int *lulzao = &lul;
     seila* objeto = new seila();
     seila castedObject = seila(*objeto); // cast pointer obj to obj
 
@@ -26,15 +24,38 @@ int main() {
     cout << objeto[0].getNum() << endl;
     cout << castedObject.getNum() << endl;
 
-    cout << lulzao << endl;
-    cout << *lulzao << endl;
+    string* vetorString = (string*) malloc(sizeof(string)*2);
+    vetorString[0] = "iae mano";
+    vetorString[1] = "belezinha?";
+    cout << vetorString[0] << endl;
+    cout << vetorString[1] << endl;
 
-    stringstream ss;
-    ss << "iae negao do mato";
+    string teste = "iae veio";
+    string teste2 = teste.substr(0, string::npos);
 
-    string buf = ss.str();
+    // cout << teste << endl;
+    // cout << teste2 << endl;
 
-    cout << buf << endl;
+    string** teste3 = (string**) malloc(sizeof(string*));
+    teste3[0] = new string(teste.data());
+
+    cout << teste3[0][0] << endl;
+
+    string** teste4 = (string**) realloc(teste3, sizeof(string*)*2);
+    teste3 = teste4;
+    teste3[1] = new string(vetorString[1].data());
     
+    cout << teste3[0][0] << endl;
+    cout << teste3[1][0] << endl;
+
+    // string** teste4 = (string**) realloc(teste3, sizeof(string*)*2);
+    // teste3 = teste4;
+    // cout << teste3[0][0] << endl;
+    // teste3[1] = new string(vetorString[0].data());
+
+    // cout << teste3[1][0] << endl;
+    // cout << teste3[0] << endl;
+    // cout << teste3[1] << endl;
+
     return 0;
 }

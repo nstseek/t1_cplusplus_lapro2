@@ -5,12 +5,10 @@
 using namespace std;
 
 // tem q fazer o filme receber ao menos 1 ator e 1 diretor, como o trabalho pede
-Filme::Filme(string nome_, unsigned int ano_, Diretor* dir, Ator* ator) {
+Filme::Filme(string nome_, string ano_) {
     nome = nome_;
     ano = ano_;
     num_atores = 0;
-    adicionarDiretor(dir);
-    adicionarAtor(ator);
 }
 
 void Filme::adicionarDiretor(Diretor* dir) {
@@ -25,7 +23,7 @@ string Filme::getNome() {
     return nome;
 }
 
-unsigned int Filme::getAno() {
+string Filme::getAno() {
     return ano;
 }
 

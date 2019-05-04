@@ -10,18 +10,18 @@ using namespace std;
 class Filme {
     private:
         string nome;
-        unsigned int ano;
+        string ano;
         Diretor* diretor;
         Ator* atores[ATORES_MAX];
         unsigned int num_atores;
     public:
-        Filme(string nome_, unsigned int ano_, Diretor* dir, Ator* ator);
+        Filme(string nome_, string ano_);
         void adicionarDiretor(Diretor* dir);
         void removerDiretor();
         void adicionarAtor(Ator* ator);
         void removerAtor();
         string getNome();
-        unsigned int getAno();
+        string getAno();
         Diretor* getDiretor();
         void getAtores();
         bool consultarAtor(string nome);
