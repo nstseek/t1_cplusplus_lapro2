@@ -9,7 +9,7 @@ class Diretor {
         string nome;
     public:
         Diretor(string N);
-        string getName();
+        string getNome();
 };
 
 #endif

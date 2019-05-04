@@ -19,11 +19,14 @@ class Filme {
         void adicionarDiretor(Diretor* dir);
         void removerDiretor();
         void adicionarAtor(Ator* ator);
-        void removerAtor(unsigned int pos);
+        void removerAtor();
         string getNome();
         unsigned int getAno();
         Diretor* getDiretor();
-        Ator* getAtor();
+        void getAtores();
+        bool consultarAtor(string nome);
+        unsigned int getNumAtores();
+        string toString();
         // retornar pointer pra array? ok
         // namespace filme? n é namespace, é nome de classe, parece igual porem diferente
 };

@@ -8,6 +8,13 @@ int main() {
 
     Diretor* diretorzao = new Diretor("LANTEJOLA");
     Filme* filmao = new Filme("FILMAO", 2008);
+    if(filmao == nullptr) {
+        cout << "filmao is null" << endl;
+    }
+    else {
+        cout << "filmao is not null" << endl;
+    }
+    cout << filmao << endl;
 
     filmao->adicionarDiretor(diretorzao);
     cout << "Nome do filme = " << filmao->getNome() << endl;
