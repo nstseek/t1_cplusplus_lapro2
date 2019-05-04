@@ -2,7 +2,7 @@
 
 using namespace std;
 
-Filme::Filme(string nome_, unsigned int ano_) {
+Filme::Filme(string nome_, unsigned int ano_, Diretor* dir, Ator* ator) {
     nome = nome_;
     ano = ano_;
 }

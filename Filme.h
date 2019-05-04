@@ -15,7 +15,7 @@ class Filme {
         Ator* atores[ATORES_MAX];
         unsigned int num_atores;
     public:
-        Filme(string nome_, unsigned int ano_);
+        Filme(string nome_, unsigned int ano_, Diretor* dir, Ator* ator);
         void adicionarDiretor(Diretor* dir);
         void removerDiretor();
         void adicionarAtor(Ator* ator);
