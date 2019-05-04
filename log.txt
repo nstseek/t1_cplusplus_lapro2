@@ -207,11 +207,10 @@ Numero de atores: 1
 ===================
 Titulo: Todos Dizem Eu Te Amo
 Ano: 1996
-Numero de atores: 4
+Numero de atores: 3
     Ator 1: Drew Barrymore
     Ator 2: Julia Roberts
     Ator 3: Natalie Portman
-    Ator 4: Natalie Portman
 ===================
 
 ===================

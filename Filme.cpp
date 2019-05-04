@@ -53,7 +53,10 @@ unsigned int Filme::getNumAtores() {
 bool Filme::consultarAtor(string nome) {
     bool found = 0;
     for(unsigned int i = 0; i < num_atores; i++) {
-        if(atores[i][0].getNome() == nome) found = 1;
+        if(atores[i][0].getNome() == nome) {
+            found = 1;
+            break;
+        }
     }
     return found;
 }

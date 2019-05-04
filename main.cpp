@@ -139,7 +139,8 @@ int main() {
                                 indexFilmes++;
                             }
                             else {
-                                filmePtr[0].adicionarAtor(atores[indexAtores]);
+                                // -- ver se o ator ja nao esta no filme
+                                if(!filmePtr[0].consultarAtor(nome)) filmePtr[0].adicionarAtor(atores[indexAtores]);
                             }
                         }
                     }
