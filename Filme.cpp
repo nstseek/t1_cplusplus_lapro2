@@ -9,6 +9,7 @@ Filme::Filme(string nome_, string ano_) {
     nome = nome_;
     ano = ano_;
     num_atores = 0;
+    diretor = nullptr;
 }
 
 void Filme::adicionarDiretor(Diretor* dir) {
@@ -67,7 +68,7 @@ string Filme::toString() {
     ss << "===================" << endl;
     ss << "Titulo: " << getNome() << endl;
     ss << "Ano: " << getAno() << endl;
-    ss << "Diretor: " << getDiretor()[0].getNome() << endl;
+    if(diretor != nullptr) ss << "Diretor: " << getDiretor()[0].getNome() << endl;
     ss << "Numero de atores: " << getNumAtores() << endl;
     for(unsigned int i = 0; i < num_atores; i++) 
         ss << "    Ator " << i+1 << ": " << atores[i][0].getNome() << endl;

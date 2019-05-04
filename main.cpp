@@ -3,7 +3,7 @@
 #include "Diretor.h"
 #include <iostream>
 #include <fstream>
-#define BDATORES "BD_Atores2.txt"
+#define BDATORES "BD_Atores.txt"
 #define BDDIRETORES "BD_Diretores.txt"
 #define LINESIZE 1000
 
@@ -123,7 +123,6 @@ int main() {
                         atores = atoresBuf;
                     }
                     atores[indexAtores] = new Ator(nome);
-                    indexAtores++;
                     for(int i = 0; i < indexFilmesAtor; i++) {
                         if(indexFilmes == 0) {
                             filmes[indexFilmes] = new Filme(filmesDoAtor[i][0], anoDoFilme[i][0]);
@@ -144,6 +143,8 @@ int main() {
                             }
                         }
                     }
+                    indexAtores++;
+                    indexFilmesAtor = 0;
                     stop = 1;
                     BDAtores.seekg(-1, ios_base::cur);
                 }
@@ -159,6 +160,8 @@ int main() {
     for(int i = 0; i < indexFilmes; i++) {
         cout << filmes[i][0].toString() << endl;
     }
+    cout << "Total de atores: " << indexAtores << endl;
+    cout << "Total de filmes: " << indexFilmes << endl;
 
     return 0;
 }

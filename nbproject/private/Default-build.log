@@ -1,0 +1,14 @@
+g++ -Wall -O -g -c Ator.cpp
+g++ -Wall -O -g -c Diretor.cpp
+g++ -Wall -O -g -c Filme.cpp
+g++ -Wall -O -g Ator.o Filme.o Diretor.o main.cpp -o main
+main.cpp: In function ‘int main()’:
+main.cpp:78:15: warning: unused variable ‘diretores’ [-Wunused-variable]
+     Diretor** diretores = (Diretor**) malloc(sizeof(Diretor*));
+               ^~~~~~~~~
+main.cpp:79:9: warning: unused variable ‘indexDiretores’ [-Wunused-variable]
+     int indexDiretores = 0;
+         ^~~~~~~~~~~~~~
+main.cpp:80:15: warning: unused variable ‘diretoresBuf’ [-Wunused-variable]
+     Diretor** diretoresBuf;
+               ^~~~~~~~~~~~
