@@ -1,27 +1,27 @@
 #
 Woody Allen
+--Você Vai Conhecer o Homem dos Seus Sonhos (2010)
+--Todos Dizem Eu Te Amo (1996)
 --O Homem Irracional (2015)
 --Magia ao Luar (2014)
+--Celebridades (1998)
 --Meia-Noite em Paris (2011)
---Você Vai Conhecer o Homem dos Seus Sonhos (2010)
 --Vicky Cristina Barcelona (2008)
+--Desconstruindo Harry (1997)
 --Scoop - O Grande Furo (2006)
 --Match Point - Ponto Final (2005)
---Celebridades (1998)
---Desconstruindo Harry (1997)
---Todos Dizem Eu Te Amo (1996)
 #
 Steven Spielberg
---Ponte dos Espiões (2015)
---Indiana Jones e o Reino da Caveira de Cristal (2008)
---Guerra dos Mundos (2005)
---O Terminal (2004)
---Prenda-me Se For Capaz (2002)
 --Minority Report - A Nova Lei (2002)
+--Hook - A Volta do Capitão Gancho (1991)
+--Indiana Jones e o Reino da Caveira de Cristal (2008)
+--Indiana Jones e a Última Cruzada (1989)
+--Prenda-me Se For Capaz (2002)
 --O Resgate do Soldado Ryan (1998)
 --Amistad (1997)
---Hook - A Volta do Capitão Gancho (1991)
---Indiana Jones e a Última Cruzada (1989)
+--Guerra dos Mundos (2005)
+--Ponte dos Espiões (2015)
+--O Terminal (2004)
 #
 Pedro Almodóvar
 --A Pele Que Habito (2011)
@@ -29,51 +29,51 @@ Pedro Almodóvar
 --Volver (2006)
 #
 Martin Scorsese
+--Gangues de Nova York (2002)
+--Os Infiltrados (2006)
 --O Lobo de Wall Street (2013)
 --Ilha do Medo (2010)
---Os Infiltrados (2006)
 --O Aviador (2004)
---Gangues de Nova York (2002)
 --Vivendo no Limite (1999)
 --Cassino (1995)
 #
 Quentin Tarantino
---Os Oito Odiados (2015)
---Django Livre (2012)
+--Grande Hotel (1995)
 --Bastardos Inglórios (2009)
+--Tempo de Violência (1994)
+--Django Livre (2012)
+--Jackie Brown (1997)
+--Os Oito Odiados (2015)
 --Kill Bill: Vol. 2 (2004)
 --Kill Bill: Vol. 1 (2003)
---Jackie Brown (1997)
---Grande Hotel (1995)
---Tempo de Violência (1994)
 #
 Tim Burton
---O Lar das Crianças Peculiares (2016)
+--Marte Ataca! (1996)
+--Batman (1989)
 --Sombras da Noite (2012)
 --Alice no País das Maravilhas (2010)
 --Sweeney Todd - O Barbeiro Demoníaco da Rua Fleet (2007)
 --A Fantástica Fábrica de Chocolate (2005)
 --A Lenda do Cavaleiro Sem Cabeça (1999)
---Marte Ataca! (1996)
 --Ed Wood (1994)
 --Edward Mãos de Tesoura (1990)
---Batman (1989)
+--O Lar das Crianças Peculiares (2016)
 #
 Francis Ford Coppola
---Velha Juventude (2007)
---O Homem Que Fazia Chover (1997)
---Jack (1996)
 --O Poderoso Chefão 3 (1990)
 --O Poderoso Chefão 2 (1974)
 --O Poderoso Chefão (1972)
+--Velha Juventude (2007)
+--O Homem Que Fazia Chover (1997)
+--Jack (1996)
 #
 Clint Eastwood
---Sully: O Herói do Rio Hudson (2016)
+--A Troca (2008)
 --J. Edgar (2011)
 --Além da Vida (2010)
 --Invictus (2009)
---A Troca (2008)
 --Menina de Ouro (2004)
+--Sully: O Herói do Rio Hudson (2016)
 #
 Walter Salles
 --Paris, Te Amo (2006)
@@ -82,55 +82,65 @@ Roman Polanski
 --O Último Portal (1999)
 #
 Ridley Scott
---Perdido em Marte (2015)
 --O Conselheiro do Crime (2013)
---Rede de Mentiras (2008)
 --O Gângster (2007)
+--Rede de Mentiras (2008)
+--Perdido em Marte (2015)
 #
 Werner Herzog
---Rainha do Deserto (2015)
 --Vício Frenético (2009)
+--Rainha do Deserto (2015)
 #
 John Woo
 --O Pagamento (2003)
 --Códigos de Guerra (2002)
---Missão Impossível 2 (2000)
 --A Outra Face (1997)
+--Missão Impossível 2 (2000)
 #
 James Cameron
 --Titanic (1997)
 #
 Christopher Nolan
+--Insônia (2002)
+--A Origem (2010)
 --Interestelar (2014)
 --Batman: O Cavaleiro das Trevas Ressurge (2012)
---A Origem (2010)
 --Batman - O Cavaleiro das Trevas (2008)
---O Grande Truque (2006)
 --Batman Begins (2005)
---Insônia (2002)
+--O Grande Truque (2006)
 #
 Gus Van Sant
+--Gênio Indomável (1997)
 --Terra Prometida (2012)
 --Uma Voz nas Sombras (2002)
 --Encontrando Forrester (2000)
---Gênio Indomável (1997)
 #
 Steven Soderbergh
---Minha Vida com Liberace (2013)
---Contágio (2011)
---A Toda Prova (2011)
---O Desinformante! (2009)
 --Treze Homens e um Novo Segredo (2007)
+--A Toda Prova (2011)
 --Doze Homens e Outro Segredo (2004)
 --Onze Homens e um Segredo (2001)
+--Contágio (2011)
 --Erin Brockovich, uma Mulher de Talento (2000)
+--Minha Vida com Liberace (2013)
+--O Desinformante! (2009)
 #
 Tony Scott
+--Jogo de Espiões (2001)
 --Déjà Vu (2006)
 --O Sequestro do Metrô 1 2 3 (2009)
 --Incontrolável (2010)
 --Chamas da Vingança (2004)
---Jogo de Espiões (2001)
---Inimigo do Estado (1998)
---Estranha Obsessão (1996)
 --Maré Vermelha (1995)
+--Estranha Obsessão (1996)
+--Inimigo do Estado (1998)
+#
+AI DROGA
+--VAMOS PRA GAIOLA QUE TA TUDO BOM BIGODIN FININ CABELIN NA REGUA (2019)
+#
+MC 2K
+--DESCE SOBE SENTA NA PICA NO BAILE DO HELIPA (2019)
+#
+MC NEGO BAM
+--ENTAO ME MAMA ITALIANA JA QUE TU NAO PODE ME DA (2019)
+--MALANDRAMENTE A MENINA INOCENTE (2019)

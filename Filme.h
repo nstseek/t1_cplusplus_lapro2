@@ -27,6 +27,7 @@ class Filme {
         bool consultarAtor(string nome);
         unsigned int getNumAtores();
         string toString();
+        string toString(bool file);
         // retornar pointer pra array? ok
         // namespace filme? n é namespace, é nome de classe, parece igual porem diferente
 };

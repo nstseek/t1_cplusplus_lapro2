@@ -20,22 +20,22 @@ Ben Affleck
 --Gênio Indomável (1997)
 #
 Brad Pitt
+--Treze Homens e um Novo Segredo (2007)
 --Bastardos Inglórios (2009)
 --O Conselheiro do Crime (2013)
 --Jogo de Espiões (2001)
---Treze Homens e um Novo Segredo (2007)
 --Doze Homens e Outro Segredo (2004)
 --Onze Homens e um Segredo (2001)
 #
 Bruce Willis
 --Grande Hotel (1995)
---Tempo de Violência (1994)
 --Doze Homens e Outro Segredo (2004)
+--Tempo de Violência (1994)
 #
 Cameron Diaz
+--O Conselheiro do Crime (2013)
 --Minority Report - A Nova Lei (2002)
 --Gangues de Nova York (2002)
---O Conselheiro do Crime (2013)
 #
 Colin Farrell
 --Minority Report - A Nova Lei (2002)
@@ -95,17 +95,17 @@ Johnny Depp
 Julia Roberts
 --Doze Homens e Outro Segredo (2004)
 --Onze Homens e um Segredo (2001)
---Erin Brockovich, uma Mulher de Talento (2000)
 --Todos Dizem Eu Te Amo (1996)
+--Erin Brockovich, uma Mulher de Talento (2000)
 #
 Leonardo DiCaprio
---Celebridades (1998)
+--Gangues de Nova York (2002)
+--Os Infiltrados (2006)
 --Prenda-me Se For Capaz (2002)
+--Celebridades (1998)
 --O Lobo de Wall Street (2013)
 --Ilha do Medo (2010)
---Os Infiltrados (2006)
 --O Aviador (2004)
---Gangues de Nova York (2002)
 --Django Livre (2012)
 --J. Edgar (2011)
 --Rede de Mentiras (2008)
@@ -113,8 +113,13 @@ Leonardo DiCaprio
 --A Origem (2010)
 #
 Matt Damon
---O Resgate do Soldado Ryan (1998)
+--Treze Homens e um Novo Segredo (2007)
+--Gênio Indomável (1997)
+--Doze Homens e Outro Segredo (2004)
+--Onze Homens e um Segredo (2001)
+--Contágio (2011)
 --Os Infiltrados (2006)
+--O Resgate do Soldado Ryan (1998)
 --Velha Juventude (2007)
 --O Homem Que Fazia Chover (1997)
 --Além da Vida (2010)
@@ -124,21 +129,16 @@ Matt Damon
 --Terra Prometida (2012)
 --Uma Voz nas Sombras (2002)
 --Encontrando Forrester (2000)
---Gênio Indomável (1997)
 --Minha Vida com Liberace (2013)
---Contágio (2011)
 --O Desinformante! (2009)
---Treze Homens e um Novo Segredo (2007)
---Doze Homens e Outro Segredo (2004)
---Onze Homens e um Segredo (2001)
 #
 Matthew McConaughey
 --O Lobo de Wall Street (2013)
 --Interestelar (2014)
 #
 Morgan Freeman
---Amistad (1997)
 --Invictus (2009)
+--Amistad (1997)
 --Menina de Ouro (2004)
 --Batman: O Cavaleiro das Trevas Ressurge (2012)
 --Batman - O Cavaleiro das Trevas (2008)
@@ -147,7 +147,6 @@ Morgan Freeman
 Natalie Portman
 --Todos Dizem Eu Te Amo (1996)
 --Paris, Te Amo (2006)
---Todos Dizem Eu Te Amo (1996)
 #
 Nicolas Cage
 --Vivendo no Limite (1999)
@@ -162,31 +161,31 @@ Owen Wilson
 --Meia-Noite em Paris (2011)
 #
 Penélope Cruz
+--O Conselheiro do Crime (2013)
 --Abraços Partidos (2009)
 --Volver (2006)
---O Conselheiro do Crime (2013)
 --Vicky Cristina Barcelona (2008)
 #
 Robert De Niro
+--O Poderoso Chefão 2 (1974)
 --Cassino (1995)
 --Jackie Brown (1997)
---O Poderoso Chefão 2 (1974)
 --Estranha Obsessão (1996)
 #
 Robin Williams
---Desconstruindo Harry (1997)
---Hook - A Volta do Capitão Gancho (1991)
---Jack (1996)
 --Insônia (2002)
 --Gênio Indomável (1997)
+--Hook - A Volta do Capitão Gancho (1991)
+--Desconstruindo Harry (1997)
+--Jack (1996)
 #
 Samuel L. Jackson
---Os Oito Odiados (2015)
---Django Livre (2012)
 --Bastardos Inglórios (2009)
---Kill Bill: Vol. 2 (2004)
---Jackie Brown (1997)
 --Tempo de Violência (1994)
+--Django Livre (2012)
+--Jackie Brown (1997)
+--Os Oito Odiados (2015)
+--Kill Bill: Vol. 2 (2004)
 --O Lar das Crianças Peculiares (2016)
 #
 Scarlett Johansson
@@ -196,24 +195,42 @@ Scarlett Johansson
 --Match Point - Ponto Final (2005)
 #
 Tom Cruise
---Guerra dos Mundos (2005)
 --Minority Report - A Nova Lei (2002)
+--Guerra dos Mundos (2005)
 --Missão Impossível 2 (2000)
 #
 Tom Hanks
---Ponte dos Espiões (2015)
---O Terminal (2004)
 --Prenda-me Se For Capaz (2002)
 --O Resgate do Soldado Ryan (1998)
+--Ponte dos Espiões (2015)
+--O Terminal (2004)
 --Sully: O Herói do Rio Hudson (2016)
 #
 Uma Thurman
+--O Pagamento (2003)
 --Kill Bill: Vol. 2 (2004)
 --Kill Bill: Vol. 1 (2003)
---O Pagamento (2003)
 #
 Vin Diesel
 --O Resgate do Soldado Ryan (1998)
 #
 Will Smith
 --Inimigo do Estado (1998)
+#
+KEVI O CHRIS
+--VAMOS PRA GAIOLA QUE TA TUDO BOM BIGODIN FININ CABELIN NA REGUA (2019)
+#
+PICA
+--DESCE SOBE SENTA NA PICA NO BAILE DO HELIPA (2019)
+#
+HELIPA
+--DESCE SOBE SENTA NA PICA NO BAILE DO HELIPA (2019)
+#
+EU
+--ENTAO ME MAMA ITALIANA JA QUE TU NAO PODE ME DA (2019)
+#
+ITALIANA
+--ENTAO ME MAMA ITALIANA JA QUE TU NAO PODE ME DA (2019)
+#
+MENINA
+--MALANDRAMENTE A MENINA INOCENTE (2019)

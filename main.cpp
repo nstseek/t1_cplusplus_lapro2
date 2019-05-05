@@ -3,19 +3,92 @@
 #include "Diretor.h"
 #include <iostream>
 #include <fstream>
+#include <cstdlib>
+#include <cstdio>
+#include <sstream>
 #define BDATORES "BD_Atores.txt"
 #define BDDIRETORES "BD_Diretores.txt"
 #define LINESIZE 1000
 
 using namespace std;
 
-Filme* pesquisarFilme(string nome, int indexFilmes, Filme** filmes) {
+Filme* pesquisarFilme(string nome, int indexFilmes, Filme** filmes, bool details) {
+    bool found = false;
     for(int i = 0; i < indexFilmes; i++) {
         if(filmes[i][0].getNome() == nome) {
-            return filmes[i];
+            found = true;
+            if(details == false) return filmes[i];
+            if(details == true) {
+                cout << filmes[i][0].toString() << endl;
+                break;
+            }
         }
     }
+    if(found == false && details == true) cout << "\nFilme nao encontrado\n" << endl;
     return nullptr;
+}
+
+void consultaAtor(string nome, int indexFilmes, Filme** filmes) {
+    for(int i = 0; i < indexFilmes; i++) {
+        if(filmes[i][0].consultarAtor(nome)) {
+            cout << filmes[i][0].toString() << endl;
+        }
+    }
+}
+
+void consultaDiretor(string nome, int indexFilmes, Filme** filmes) {
+    for(int i = 0; i < indexFilmes; i++) {
+        if(filmes[i][0].getDiretor()[0].getNome() == nome) {
+            cout << filmes[i][0].toString() << endl;
+        }
+    }
+}
+
+Ator* criarAtor(string nome, int* indexAtores, Ator*** atores) {
+    for(int i = 0; i < *indexAtores; i++) {
+        if(atores[0][i][0].getNome() == nome) {
+            cout << "Ator ja existente - utilizando ator ja criado" << endl;
+            return *atores[i];
+        }
+    }
+    Ator* newAtorCriado = new Ator(nome);
+    Ator** atoresBuf = (Ator**) realloc(*atores, sizeof(Ator*)*(*indexAtores+1));
+    *atores = atoresBuf;
+    /*
+    -- ESSA MERDA NAO TA FUNCIONANDO, DEPOIS DE RODAR 2 VEZES, ELE SIMPLESMENTE FAZ ESSA ATRIBUICAO
+    -- MAS QUANDO EU SAIO DA FUNCAO, O ATORES QUE TA LA FORA EH DIFERENTE DO ATORES QUE TA AQUI DENTRO
+    -- BASICAMENTE ELE TAVA CRIANDO A VAR ATOR** ATORES EM ESCOPO LOCAL, NUM SEI OQ ROLOU, VAMO TENTA ATOR*** ATORES
+    */
+    /*
+    -- ATUALIZACAO DESSA MERDA INFINITA, APARENTEMENTE, EU NAO SABIA QUE EU TINHA QUE PASSAR O POINTER DO POINTER DO POINTER
+    -- PRA QUE A MINHA VAR DO TIPO POINTER FOSSE ALTERADA LA FORA, PENSANDO AGORA LOGICAMENTE ISSO FAZ TODO SENTIDO
+    -- E EU SOU MEIO BURRO POR NAO TER PENSADO NISSO, MAS OK, VIDA QUE SEGUE, PERDI TEMPO MAS APRENDI, PRECISO PASSAR POINTER
+    -- DO POINTER DO POINTER E USAR O * OU O [0] PRA PODER ALTERAR UM POINTER EXTERIORMENTE NO PROGRAMA, EH ISTO
+    */
+    atores[0][*indexAtores] = newAtorCriado;
+    *indexAtores += 1;
+    return newAtorCriado;
+    // colocar no array de atores
+}
+
+Diretor* criarDiretor(string nome, int* indexDiretores, Diretor*** diretores) {
+    for(int i = 0; i < *indexDiretores; i++) {
+        if(diretores[0][i][0].getNome() == nome) {
+            cout << "Diretor ja existente - utilizando diretor ja criado" << endl;
+            return diretores[0][i];
+        }
+    }
+    Diretor* newDiretorCriado = new Diretor(nome);
+    Diretor** diretoresBuf = (Diretor**) realloc(*diretores, sizeof(Diretor*)*(*indexDiretores+1));;
+    *diretores = diretoresBuf;
+    diretores[0][*indexDiretores] = newDiretorCriado;
+    *indexDiretores += 1;
+    return newDiretorCriado;
+    // colocar no array de diretores
+}
+
+void atualizarArquivo() {
+
 }
 
 int main() {
@@ -130,10 +203,10 @@ int main() {
                             indexFilmes++;
                         }
                         else {
-                            filmesBuf = (Filme**) realloc(filmes, sizeof(Filme*)*(indexFilmes+1));
-                            filmes = filmesBuf;
-                            filmePtr = pesquisarFilme(filmesArq[i][0], indexFilmes, filmes);
+                            filmePtr = pesquisarFilme(filmesArq[i][0], indexFilmes, filmes, false);
                             if(filmePtr == nullptr) {
+                                filmesBuf = (Filme**) realloc(filmes, sizeof(Filme*)*(indexFilmes+1));
+                                filmes = filmesBuf;
                                 filmes[indexFilmes] = new Filme(filmesArq[i][0], anoDoFilme[i][0]);
                                 filmes[indexFilmes][0].adicionarAtor(atores[indexAtores]);
                                 indexFilmes++;
@@ -154,6 +227,7 @@ int main() {
 
         }
     }
+    BDAtores.close();
 
     filmesArq = (string**) malloc(sizeof(string*));
     filmesArqBuf = nullptr;
@@ -200,10 +274,10 @@ int main() {
                             indexFilmes++;
                         }
                         else {
-                            filmesBuf = (Filme**) realloc(filmes, sizeof(Filme*)*(indexFilmes+1));
-                            filmes = filmesBuf;
-                            filmePtr = pesquisarFilme(filmesArq[i][0], indexFilmes, filmes);
+                            filmePtr = pesquisarFilme(filmesArq[i][0], indexFilmes, filmes, false);
                             if(filmePtr == nullptr) {
+                                filmesBuf = (Filme**) realloc(filmes, sizeof(Filme*)*(indexFilmes+1));
+                                filmes = filmesBuf;
                                 filmes[indexFilmes] = new Filme(filmesArq[i][0], anoDoFilme[i][0]);
                                 filmes[indexFilmes][0].adicionarDiretor(diretores[indexDiretores]);
                                 indexFilmes++;
@@ -227,6 +301,8 @@ int main() {
         }
     }
 
+    BDDiretores.close();
+
     // for(int i = 0; i < indexFilmesArq; i++)
     //     cout << "Filme e ano: " << filmesArq[i][0] << " " << anoDoFilme[i][0] << endl;
 
@@ -234,12 +310,183 @@ int main() {
     //     cout << diretores[i][0].getNome() << endl;
     // }
     
-    for(int i = 0; i < indexFilmes; i++) {
-        cout << filmes[i][0].toString() << endl;
+    // for(int i = 0; i < indexFilmes; i++) {
+    //     cout << filmes[i][0].toString() << endl;
+    // }
+    // cout << "Total de atores: " << indexAtores << endl;
+    // cout << "Total de filmes: " << indexFilmes << endl;
+    // cout << "Total de diretores: " << indexDiretores << endl;
+
+    Diretor* newDiretor;
+    string diretorNomeBuf;
+    Filme* newFilme;
+    // Ator** newAtores;
+    // Ator** newAtoresBuf;
+    int newNumAtores;
+    // int newIndexAtores;
+    ofstream BDAtoresO;
+    ofstream BDDiretoresO;
+    stringstream faoutput;
+    stringstream fdoutput;
+
+    time_t rawtime;
+    time(&rawtime);
+    const char* localTime = ctime(&rawtime);
+
+    string* data = new string(localTime);
+    string ano = data[0].substr((data[0].length()-5), string::npos);
+    ano.resize(4);
+
+    int opt;
+    while(1) {
+        cout << "Total de filmes: " << indexFilmes << endl;
+        cout << "Total de atores: " << indexAtores << endl;
+        cout << "Total de diretores: " << indexDiretores << endl;
+        cout << "Selecione uma opcao:" << endl;
+        cout << "\t1 - Consulta de atores" << endl;
+        cout << "\t2 - Consulta de diretores" << endl;
+        cout << "\t3 - Consulta de filmes" << endl;
+        cout << "\t4 - Cadastrar novo filme" << endl;
+        cout << "\t5 - Atualizar " << BDATORES << " e " << BDDIRETORES << endl;
+        cout << "\t6 - Sair" << endl;
+        cin >> opt;
+        switch (opt) {
+        case 1:
+            cout << "Digite o nome do ator a ser pesquisado: " << endl;
+            getchar();
+            getline(cin, nome);
+            cout << "Voce digitou: " << nome << endl;
+            consultaAtor(nome, indexFilmes, filmes);
+            break;
+        case 2:
+            cout << "Digite o nome do diretor a ser pesquisado: " << endl;
+            getchar();
+            getline(cin, nome);
+            consultaDiretor(nome, indexFilmes, filmes);
+            break;
+        case 3:
+            cout << "Digite o nome do filme a ser pesquisado: " << endl;
+            getchar();
+            getline(cin, nome);
+            pesquisarFilme(nome, indexFilmes, filmes, true);
+            break;
+        case 4:
+            cout << "Digite o titulo do filme" << endl;
+            getchar();
+            getline(cin, nome);
+            cout << "Digite o nome do diretor" << endl;
+            getline(cin, diretorNomeBuf);
+            newDiretor = criarDiretor(diretorNomeBuf, &indexDiretores, &diretores);
+            cout << "Digite quantos atores o filme possui" << endl;
+            cin >> newNumAtores;
+
+            if(indexFilmes == 0) {
+                filmes[indexFilmes] = new Filme(nome, ano);
+                newFilme = filmes[indexFilmes];
+                indexFilmes++;
+            }
+            else {
+                filmePtr = pesquisarFilme(nome, indexFilmes, filmes, false);
+                if(filmePtr == nullptr) {
+                    filmesBuf = (Filme**) realloc(filmes, sizeof(Filme*)*(indexFilmes+1));
+                    filmes = filmesBuf;
+                    filmes[indexFilmes] = new Filme(nome, ano);
+                    newFilme = filmes[indexFilmes];
+                    indexFilmes++;
+                }
+                else {
+                    cout << "O filme ja existe - utilizando filme ja criado" << endl;
+                    newFilme = filmePtr;
+                }
+            }
+            newFilme[0].adicionarDiretor(newDiretor);
+            getchar();
+
+            for(int i = 0; i < newNumAtores; i++) {
+                cout << "Digite o nome do ator numero " << i+1 << ":" << endl;
+                getline(cin, nome);
+                newFilme[0].adicionarAtor(criarAtor(nome, &indexAtores, &atores));
+            }
+
+            for(int i = 0; i < indexAtores; i++) {
+                cout << "to no ator n " << i << " q vale " << atores[i] << endl;
+                cout << atores[i][0].getNome() << endl;
+            }
+
+            cout << newFilme[0].toString() << endl;
+
+            break;
+
+        case 5:
+            if(remove(BDATORES) != 0) {
+                cout << "FATAL ERROR - CAN'T DELETE FILE" << endl;
+                return 1;
+            }
+            BDAtoresO.open(BDATORES, ios_base::out);
+            if(!(BDAtoresO.good())) {
+                cout << "FATAL ERROR - CAN'T OPEN FILE" << endl;
+            }
+
+            for(int i = 0; i < indexAtores; i++) {
+                faoutput << '#' << endl;
+                faoutput << atores[i][0].getNome() << endl;
+                for(int j = 0; j < indexFilmes; j++) {
+                    if(filmes[j][0].consultarAtor(atores[i][0].getNome())) {
+                        faoutput << filmes[j][0].toString(true);
+                    }
+                }
+            }
+
+            BDAtoresO << faoutput.str();
+
+            BDAtoresO.close();
+
+            if(remove(BDDIRETORES) != 0) {
+                cout << "FATAL ERROR - CAN'T DELETE FILE" << endl;
+                return 1;
+            }
+            BDDiretoresO.open(BDDIRETORES, ios_base::out);
+            if(!(BDDiretoresO.good())) {
+                cout << "FATAL ERROR - CAN'T OPEN FILE" << endl;
+            }
+
+            for(int i = 0; i < indexDiretores; i++) {
+                fdoutput << '#' << endl;
+                fdoutput << diretores[i][0].getNome() << endl;
+                for(int j = 0; j < indexFilmes; j++) {
+                    if(filmes[j][0].getDiretor()[0].getNome() == diretores[i][0].getNome()) {
+                        fdoutput << filmes[j][0].toString(true);
+                    }
+                }
+            }
+
+            BDDiretoresO << fdoutput.str();
+
+            BDDiretoresO.close();
+
+            cout << "Arquivos atualizados." << endl;
+
+            break;
+        case 6:
+            cout << "Saindo..." << endl;
+            return 0;
+            break;
+        // case 7:
+        //     for(int i = 0; i < indexAtores; i++) {
+        //         cout << atores[i][0].getNome() << endl;
+        //     }
+        //     for(int i = 0; i < indexDiretores; i++) {
+        //         cout << diretores[i][0].getNome() << endl;
+        //     }
+        //     for(int i = 0; i < indexFilmes; i++) {
+        //         cout << filmes[i][0].getNome() << endl;
+        //     }
+        //     break;
+        default:
+            cout << "\nERROR - Valor nao reconhecido\n" << endl;
+            break;
+        }
     }
-    cout << "Total de atores: " << indexAtores << endl;
-    cout << "Total de filmes: " << indexFilmes << endl;
-    cout << "Total de diretores: " << indexDiretores << endl;
 
     return 0;
 }

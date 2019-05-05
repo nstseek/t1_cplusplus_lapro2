@@ -1,5 +1,8 @@
 #include <iostream>
 #include <sstream>
+#include <ctime>
+#include <fstream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -15,6 +18,10 @@ class seila {
         }
 
 };
+
+seila* createSeila() {
+    return new seila();
+}
 
 int main() {
     seila* objeto = new seila();
@@ -56,6 +63,41 @@ int main() {
     // cout << teste3[1][0] << endl;
     // cout << teste3[0] << endl;
     // cout << teste3[1] << endl;
+
+    time_t rawtime;
+    time(&rawtime);
+    const char* localTime = ctime(&rawtime);
+
+    string* date = new string(localTime);
+    string year = date[0].substr((date[0].length()-5), string::npos);
+    year.resize(4);
+    cout << year << endl;
+    cout << date[0] << endl;
+
+    seila* uolo = createSeila();
+
+    cout << uolo->getNum() << endl;
+
+    ofstream file;
+    file.open("iae.txt", ios_base::out);
+    if(file.good()) {
+        file << year << endl;
+    }
+    else {
+        cout << "error opening file" << endl;
+    }
+
+    file.close();
+    remove("iae.txt");
+
+    file.open("iou.txt", ios_base::out);
+    if(file.good()) {
+        file << year << endl;
+    }
+    else {
+        cout << "error opening file" << endl;
+    }
+
 
     return 0;
 }
