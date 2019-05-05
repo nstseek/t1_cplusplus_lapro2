@@ -14,6 +14,11 @@
 .history
 
 ./*.o
+*.o
+Ator.o
+Diretor.o
+Filme.o
+main
 
 nbproject/
 nbproject/*
