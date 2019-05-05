@@ -1,6 +1,7 @@
 ===================
 Titulo: O Poderoso Chefão 3
 Ano: 1990
+Diretor: Francis Ford Coppola
 Numero de atores: 1
     Ator 1: Al Pacino
 ===================
@@ -8,6 +9,7 @@ Numero de atores: 1
 ===================
 Titulo: O Poderoso Chefão 2
 Ano: 1974
+Diretor: Francis Ford Coppola
 Numero de atores: 2
     Ator 1: Al Pacino
     Ator 2: Robert De Niro
@@ -16,6 +18,7 @@ Numero de atores: 2
 ===================
 Titulo: O Poderoso Chefão
 Ano: 1972
+Diretor: Francis Ford Coppola
 Numero de atores: 1
     Ator 1: Al Pacino
 ===================
@@ -23,6 +26,7 @@ Numero de atores: 1
 ===================
 Titulo: Insônia
 Ano: 2002
+Diretor: Christopher Nolan
 Numero de atores: 2
     Ator 1: Al Pacino
     Ator 2: Robin Williams
@@ -31,6 +35,7 @@ Numero de atores: 2
 ===================
 Titulo: Treze Homens e um Novo Segredo
 Ano: 2007
+Diretor: Steven Soderbergh
 Numero de atores: 4
     Ator 1: Al Pacino
     Ator 2: Brad Pitt
@@ -41,6 +46,7 @@ Numero de atores: 4
 ===================
 Titulo: A Troca
 Ano: 2008
+Diretor: Clint Eastwood
 Numero de atores: 1
     Ator 1: Angelina Jolie
 ===================
@@ -48,6 +54,7 @@ Numero de atores: 1
 ===================
 Titulo: Você Vai Conhecer o Homem dos Seus Sonhos
 Ano: 2010
+Diretor: Woody Allen
 Numero de atores: 1
     Ator 1: Antonio Banderas
 ===================
@@ -55,6 +62,7 @@ Numero de atores: 1
 ===================
 Titulo: A Pele Que Habito
 Ano: 2011
+Diretor: Pedro Almodóvar
 Numero de atores: 1
     Ator 1: Antonio Banderas
 ===================
@@ -62,6 +70,7 @@ Numero de atores: 1
 ===================
 Titulo: Grande Hotel
 Ano: 1995
+Diretor: Quentin Tarantino
 Numero de atores: 2
     Ator 1: Antonio Banderas
     Ator 2: Bruce Willis
@@ -70,6 +79,7 @@ Numero de atores: 2
 ===================
 Titulo: A Toda Prova
 Ano: 2011
+Diretor: Steven Soderbergh
 Numero de atores: 1
     Ator 1: Antonio Banderas
 ===================
@@ -77,6 +87,7 @@ Numero de atores: 1
 ===================
 Titulo: O Pagamento
 Ano: 2003
+Diretor: John Woo
 Numero de atores: 2
     Ator 1: Ben Affleck
     Ator 2: Uma Thurman
@@ -85,6 +96,7 @@ Numero de atores: 2
 ===================
 Titulo: Gênio Indomável
 Ano: 1997
+Diretor: Gus Van Sant
 Numero de atores: 3
     Ator 1: Ben Affleck
     Ator 2: Matt Damon
@@ -94,6 +106,7 @@ Numero de atores: 3
 ===================
 Titulo: Bastardos Inglórios
 Ano: 2009
+Diretor: Quentin Tarantino
 Numero de atores: 2
     Ator 1: Brad Pitt
     Ator 2: Samuel L. Jackson
@@ -102,6 +115,7 @@ Numero de atores: 2
 ===================
 Titulo: O Conselheiro do Crime
 Ano: 2013
+Diretor: Ridley Scott
 Numero de atores: 3
     Ator 1: Brad Pitt
     Ator 2: Cameron Diaz
@@ -111,6 +125,7 @@ Numero de atores: 3
 ===================
 Titulo: Jogo de Espiões
 Ano: 2001
+Diretor: Tony Scott
 Numero de atores: 1
     Ator 1: Brad Pitt
 ===================
@@ -118,6 +133,7 @@ Numero de atores: 1
 ===================
 Titulo: Doze Homens e Outro Segredo
 Ano: 2004
+Diretor: Steven Soderbergh
 Numero de atores: 5
     Ator 1: Brad Pitt
     Ator 2: Bruce Willis
@@ -129,6 +145,7 @@ Numero de atores: 5
 ===================
 Titulo: Onze Homens e um Segredo
 Ano: 2001
+Diretor: Steven Soderbergh
 Numero de atores: 4
     Ator 1: Brad Pitt
     Ator 2: George Clooney
@@ -139,6 +156,7 @@ Numero de atores: 4
 ===================
 Titulo: Tempo de Violência
 Ano: 1994
+Diretor: Quentin Tarantino
 Numero de atores: 2
     Ator 1: Bruce Willis
     Ator 2: Samuel L. Jackson
@@ -147,6 +165,7 @@ Numero de atores: 2
 ===================
 Titulo: Minority Report - A Nova Lei
 Ano: 2002
+Diretor: Steven Spielberg
 Numero de atores: 3
     Ator 1: Cameron Diaz
     Ator 2: Colin Farrell
@@ -156,6 +175,7 @@ Numero de atores: 3
 ===================
 Titulo: Gangues de Nova York
 Ano: 2002
+Diretor: Martin Scorsese
 Numero de atores: 2
     Ator 1: Cameron Diaz
     Ator 2: Leonardo DiCaprio
@@ -164,6 +184,7 @@ Numero de atores: 2
 ===================
 Titulo: O Gângster
 Ano: 2007
+Diretor: Ridley Scott
 Numero de atores: 2
     Ator 1: Cuba Gooding Jr.
     Ator 2: Denzel Washington
@@ -172,6 +193,7 @@ Numero de atores: 2
 ===================
 Titulo: Déjà Vu
 Ano: 2006
+Diretor: Tony Scott
 Numero de atores: 1
     Ator 1: Denzel Washington
 ===================
@@ -179,6 +201,7 @@ Numero de atores: 1
 ===================
 Titulo: O Sequestro do Metrô 1 2 3
 Ano: 2009
+Diretor: Tony Scott
 Numero de atores: 1
     Ator 1: Denzel Washington
 ===================
@@ -186,6 +209,7 @@ Numero de atores: 1
 ===================
 Titulo: Incontrolável
 Ano: 2010
+Diretor: Tony Scott
 Numero de atores: 1
     Ator 1: Denzel Washington
 ===================
@@ -193,6 +217,7 @@ Numero de atores: 1
 ===================
 Titulo: Chamas da Vingança
 Ano: 2004
+Diretor: Tony Scott
 Numero de atores: 1
     Ator 1: Denzel Washington
 ===================
@@ -200,6 +225,7 @@ Numero de atores: 1
 ===================
 Titulo: Maré Vermelha
 Ano: 1995
+Diretor: Tony Scott
 Numero de atores: 1
     Ator 1: Denzel Washington
 ===================
@@ -207,6 +233,7 @@ Numero de atores: 1
 ===================
 Titulo: Todos Dizem Eu Te Amo
 Ano: 1996
+Diretor: Woody Allen
 Numero de atores: 3
     Ator 1: Drew Barrymore
     Ator 2: Julia Roberts
@@ -216,6 +243,7 @@ Numero de atores: 3
 ===================
 Titulo: O Homem Irracional
 Ano: 2015
+Diretor: Woody Allen
 Numero de atores: 1
     Ator 1: Emma Stone
 ===================
@@ -223,6 +251,7 @@ Numero de atores: 1
 ===================
 Titulo: Magia ao Luar
 Ano: 2014
+Diretor: Woody Allen
 Numero de atores: 1
     Ator 1: Emma Stone
 ===================
@@ -230,6 +259,7 @@ Numero de atores: 1
 ===================
 Titulo: Paris, Te Amo
 Ano: 2006
+Diretor: Walter Salles
 Numero de atores: 2
     Ator 1: Gérard Depardieu
     Ator 2: Natalie Portman
@@ -238,6 +268,7 @@ Numero de atores: 2
 ===================
 Titulo: Hook - A Volta do Capitão Gancho
 Ano: 1991
+Diretor: Steven Spielberg
 Numero de atores: 2
     Ator 1: Gwyneth Paltrow
     Ator 2: Robin Williams
@@ -246,6 +277,7 @@ Numero de atores: 2
 ===================
 Titulo: Contágio
 Ano: 2011
+Diretor: Steven Soderbergh
 Numero de atores: 2
     Ator 1: Gwyneth Paltrow
     Ator 2: Matt Damon
@@ -254,6 +286,7 @@ Numero de atores: 2
 ===================
 Titulo: Indiana Jones e o Reino da Caveira de Cristal
 Ano: 2008
+Diretor: Steven Spielberg
 Numero de atores: 1
     Ator 1: Harrison Ford
 ===================
@@ -261,6 +294,7 @@ Numero de atores: 1
 ===================
 Titulo: Indiana Jones e a Última Cruzada
 Ano: 1989
+Diretor: Steven Spielberg
 Numero de atores: 1
     Ator 1: Harrison Ford
 ===================
@@ -268,6 +302,7 @@ Numero de atores: 1
 ===================
 Titulo: Os Infiltrados
 Ano: 2006
+Diretor: Martin Scorsese
 Numero de atores: 3
     Ator 1: Jack Nicholson
     Ator 2: Leonardo DiCaprio
@@ -277,6 +312,7 @@ Numero de atores: 3
 ===================
 Titulo: Marte Ataca!
 Ano: 1996
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Jack Nicholson
 ===================
@@ -284,6 +320,7 @@ Numero de atores: 1
 ===================
 Titulo: Batman
 Ano: 1989
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Jack Nicholson
 ===================
@@ -291,6 +328,7 @@ Numero de atores: 1
 ===================
 Titulo: Prenda-me Se For Capaz
 Ano: 2002
+Diretor: Steven Spielberg
 Numero de atores: 3
     Ator 1: Jennifer Garner
     Ator 2: Leonardo DiCaprio
@@ -300,6 +338,7 @@ Numero de atores: 3
 ===================
 Titulo: Sombras da Noite
 Ano: 2012
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Johnny Depp
 ===================
@@ -307,6 +346,7 @@ Numero de atores: 1
 ===================
 Titulo: Alice no País das Maravilhas
 Ano: 2010
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Johnny Depp
 ===================
@@ -314,6 +354,7 @@ Numero de atores: 1
 ===================
 Titulo: Sweeney Todd - O Barbeiro Demoníaco da Rua Fleet
 Ano: 2007
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Johnny Depp
 ===================
@@ -321,6 +362,7 @@ Numero de atores: 1
 ===================
 Titulo: A Fantástica Fábrica de Chocolate
 Ano: 2005
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Johnny Depp
 ===================
@@ -328,6 +370,7 @@ Numero de atores: 1
 ===================
 Titulo: A Lenda do Cavaleiro Sem Cabeça
 Ano: 1999
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Johnny Depp
 ===================
@@ -335,6 +378,7 @@ Numero de atores: 1
 ===================
 Titulo: Ed Wood
 Ano: 1994
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Johnny Depp
 ===================
@@ -342,6 +386,7 @@ Numero de atores: 1
 ===================
 Titulo: Edward Mãos de Tesoura
 Ano: 1990
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Johnny Depp
 ===================
@@ -349,6 +394,7 @@ Numero de atores: 1
 ===================
 Titulo: O Último Portal
 Ano: 1999
+Diretor: Roman Polanski
 Numero de atores: 1
     Ator 1: Johnny Depp
 ===================
@@ -356,6 +402,7 @@ Numero de atores: 1
 ===================
 Titulo: Erin Brockovich, uma Mulher de Talento
 Ano: 2000
+Diretor: Steven Soderbergh
 Numero de atores: 1
     Ator 1: Julia Roberts
 ===================
@@ -363,6 +410,7 @@ Numero de atores: 1
 ===================
 Titulo: Celebridades
 Ano: 1998
+Diretor: Woody Allen
 Numero de atores: 1
     Ator 1: Leonardo DiCaprio
 ===================
@@ -370,6 +418,7 @@ Numero de atores: 1
 ===================
 Titulo: O Lobo de Wall Street
 Ano: 2013
+Diretor: Martin Scorsese
 Numero de atores: 2
     Ator 1: Leonardo DiCaprio
     Ator 2: Matthew McConaughey
@@ -378,6 +427,7 @@ Numero de atores: 2
 ===================
 Titulo: Ilha do Medo
 Ano: 2010
+Diretor: Martin Scorsese
 Numero de atores: 1
     Ator 1: Leonardo DiCaprio
 ===================
@@ -385,6 +435,7 @@ Numero de atores: 1
 ===================
 Titulo: O Aviador
 Ano: 2004
+Diretor: Martin Scorsese
 Numero de atores: 1
     Ator 1: Leonardo DiCaprio
 ===================
@@ -392,6 +443,7 @@ Numero de atores: 1
 ===================
 Titulo: Django Livre
 Ano: 2012
+Diretor: Quentin Tarantino
 Numero de atores: 2
     Ator 1: Leonardo DiCaprio
     Ator 2: Samuel L. Jackson
@@ -400,6 +452,7 @@ Numero de atores: 2
 ===================
 Titulo: J. Edgar
 Ano: 2011
+Diretor: Clint Eastwood
 Numero de atores: 1
     Ator 1: Leonardo DiCaprio
 ===================
@@ -407,6 +460,7 @@ Numero de atores: 1
 ===================
 Titulo: Rede de Mentiras
 Ano: 2008
+Diretor: Ridley Scott
 Numero de atores: 1
     Ator 1: Leonardo DiCaprio
 ===================
@@ -414,6 +468,7 @@ Numero de atores: 1
 ===================
 Titulo: Titanic
 Ano: 1997
+Diretor: James Cameron
 Numero de atores: 1
     Ator 1: Leonardo DiCaprio
 ===================
@@ -421,6 +476,7 @@ Numero de atores: 1
 ===================
 Titulo: A Origem
 Ano: 2010
+Diretor: Christopher Nolan
 Numero de atores: 1
     Ator 1: Leonardo DiCaprio
 ===================
@@ -428,6 +484,7 @@ Numero de atores: 1
 ===================
 Titulo: O Resgate do Soldado Ryan
 Ano: 1998
+Diretor: Steven Spielberg
 Numero de atores: 3
     Ator 1: Matt Damon
     Ator 2: Tom Hanks
@@ -437,6 +494,7 @@ Numero de atores: 3
 ===================
 Titulo: Velha Juventude
 Ano: 2007
+Diretor: Francis Ford Coppola
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -444,6 +502,7 @@ Numero de atores: 1
 ===================
 Titulo: O Homem Que Fazia Chover
 Ano: 1997
+Diretor: Francis Ford Coppola
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -451,6 +510,7 @@ Numero de atores: 1
 ===================
 Titulo: Além da Vida
 Ano: 2010
+Diretor: Clint Eastwood
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -458,6 +518,7 @@ Numero de atores: 1
 ===================
 Titulo: Invictus
 Ano: 2009
+Diretor: Clint Eastwood
 Numero de atores: 2
     Ator 1: Matt Damon
     Ator 2: Morgan Freeman
@@ -466,6 +527,7 @@ Numero de atores: 2
 ===================
 Titulo: Perdido em Marte
 Ano: 2015
+Diretor: Ridley Scott
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -473,6 +535,7 @@ Numero de atores: 1
 ===================
 Titulo: Interestelar
 Ano: 2014
+Diretor: Christopher Nolan
 Numero de atores: 2
     Ator 1: Matt Damon
     Ator 2: Matthew McConaughey
@@ -481,6 +544,7 @@ Numero de atores: 2
 ===================
 Titulo: Terra Prometida
 Ano: 2012
+Diretor: Gus Van Sant
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -488,6 +552,7 @@ Numero de atores: 1
 ===================
 Titulo: Uma Voz nas Sombras
 Ano: 2002
+Diretor: Gus Van Sant
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -495,6 +560,7 @@ Numero de atores: 1
 ===================
 Titulo: Encontrando Forrester
 Ano: 2000
+Diretor: Gus Van Sant
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -502,6 +568,7 @@ Numero de atores: 1
 ===================
 Titulo: Minha Vida com Liberace
 Ano: 2013
+Diretor: Steven Soderbergh
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -509,6 +576,7 @@ Numero de atores: 1
 ===================
 Titulo: O Desinformante!
 Ano: 2009
+Diretor: Steven Soderbergh
 Numero de atores: 1
     Ator 1: Matt Damon
 ===================
@@ -516,6 +584,7 @@ Numero de atores: 1
 ===================
 Titulo: Amistad
 Ano: 1997
+Diretor: Steven Spielberg
 Numero de atores: 1
     Ator 1: Morgan Freeman
 ===================
@@ -523,6 +592,7 @@ Numero de atores: 1
 ===================
 Titulo: Menina de Ouro
 Ano: 2004
+Diretor: Clint Eastwood
 Numero de atores: 1
     Ator 1: Morgan Freeman
 ===================
@@ -530,6 +600,7 @@ Numero de atores: 1
 ===================
 Titulo: Batman: O Cavaleiro das Trevas Ressurge
 Ano: 2012
+Diretor: Christopher Nolan
 Numero de atores: 1
     Ator 1: Morgan Freeman
 ===================
@@ -537,6 +608,7 @@ Numero de atores: 1
 ===================
 Titulo: Batman - O Cavaleiro das Trevas
 Ano: 2008
+Diretor: Christopher Nolan
 Numero de atores: 1
     Ator 1: Morgan Freeman
 ===================
@@ -544,6 +616,7 @@ Numero de atores: 1
 ===================
 Titulo: Batman Begins
 Ano: 2005
+Diretor: Christopher Nolan
 Numero de atores: 1
     Ator 1: Morgan Freeman
 ===================
@@ -551,6 +624,7 @@ Numero de atores: 1
 ===================
 Titulo: Vivendo no Limite
 Ano: 1999
+Diretor: Martin Scorsese
 Numero de atores: 1
     Ator 1: Nicolas Cage
 ===================
@@ -558,6 +632,7 @@ Numero de atores: 1
 ===================
 Titulo: Vício Frenético
 Ano: 2009
+Diretor: Werner Herzog
 Numero de atores: 1
     Ator 1: Nicolas Cage
 ===================
@@ -565,6 +640,7 @@ Numero de atores: 1
 ===================
 Titulo: Códigos de Guerra
 Ano: 2002
+Diretor: John Woo
 Numero de atores: 1
     Ator 1: Nicolas Cage
 ===================
@@ -572,6 +648,7 @@ Numero de atores: 1
 ===================
 Titulo: A Outra Face
 Ano: 1997
+Diretor: John Woo
 Numero de atores: 1
     Ator 1: Nicolas Cage
 ===================
@@ -579,6 +656,7 @@ Numero de atores: 1
 ===================
 Titulo: Rainha do Deserto
 Ano: 2015
+Diretor: Werner Herzog
 Numero de atores: 1
     Ator 1: Nicole Kidman
 ===================
@@ -586,6 +664,7 @@ Numero de atores: 1
 ===================
 Titulo: Meia-Noite em Paris
 Ano: 2011
+Diretor: Woody Allen
 Numero de atores: 1
     Ator 1: Owen Wilson
 ===================
@@ -593,6 +672,7 @@ Numero de atores: 1
 ===================
 Titulo: Abraços Partidos
 Ano: 2009
+Diretor: Pedro Almodóvar
 Numero de atores: 1
     Ator 1: Penélope Cruz
 ===================
@@ -600,6 +680,7 @@ Numero de atores: 1
 ===================
 Titulo: Volver
 Ano: 2006
+Diretor: Pedro Almodóvar
 Numero de atores: 1
     Ator 1: Penélope Cruz
 ===================
@@ -607,6 +688,7 @@ Numero de atores: 1
 ===================
 Titulo: Vicky Cristina Barcelona
 Ano: 2008
+Diretor: Woody Allen
 Numero de atores: 2
     Ator 1: Penélope Cruz
     Ator 2: Scarlett Johansson
@@ -615,6 +697,7 @@ Numero de atores: 2
 ===================
 Titulo: Cassino
 Ano: 1995
+Diretor: Martin Scorsese
 Numero de atores: 1
     Ator 1: Robert De Niro
 ===================
@@ -622,6 +705,7 @@ Numero de atores: 1
 ===================
 Titulo: Jackie Brown
 Ano: 1997
+Diretor: Quentin Tarantino
 Numero de atores: 2
     Ator 1: Robert De Niro
     Ator 2: Samuel L. Jackson
@@ -630,6 +714,7 @@ Numero de atores: 2
 ===================
 Titulo: Estranha Obsessão
 Ano: 1996
+Diretor: Tony Scott
 Numero de atores: 1
     Ator 1: Robert De Niro
 ===================
@@ -637,6 +722,7 @@ Numero de atores: 1
 ===================
 Titulo: Desconstruindo Harry
 Ano: 1997
+Diretor: Woody Allen
 Numero de atores: 1
     Ator 1: Robin Williams
 ===================
@@ -644,6 +730,7 @@ Numero de atores: 1
 ===================
 Titulo: Jack
 Ano: 1996
+Diretor: Francis Ford Coppola
 Numero de atores: 1
     Ator 1: Robin Williams
 ===================
@@ -651,6 +738,7 @@ Numero de atores: 1
 ===================
 Titulo: Os Oito Odiados
 Ano: 2015
+Diretor: Quentin Tarantino
 Numero de atores: 1
     Ator 1: Samuel L. Jackson
 ===================
@@ -658,6 +746,7 @@ Numero de atores: 1
 ===================
 Titulo: Kill Bill: Vol. 2
 Ano: 2004
+Diretor: Quentin Tarantino
 Numero de atores: 2
     Ator 1: Samuel L. Jackson
     Ator 2: Uma Thurman
@@ -666,6 +755,7 @@ Numero de atores: 2
 ===================
 Titulo: O Lar das Crianças Peculiares
 Ano: 2016
+Diretor: Tim Burton
 Numero de atores: 1
     Ator 1: Samuel L. Jackson
 ===================
@@ -673,6 +763,7 @@ Numero de atores: 1
 ===================
 Titulo: Scoop - O Grande Furo
 Ano: 2006
+Diretor: Woody Allen
 Numero de atores: 1
     Ator 1: Scarlett Johansson
 ===================
@@ -680,6 +771,7 @@ Numero de atores: 1
 ===================
 Titulo: O Grande Truque
 Ano: 2006
+Diretor: Christopher Nolan
 Numero de atores: 1
     Ator 1: Scarlett Johansson
 ===================
@@ -687,6 +779,7 @@ Numero de atores: 1
 ===================
 Titulo: Match Point - Ponto Final
 Ano: 2005
+Diretor: Woody Allen
 Numero de atores: 1
     Ator 1: Scarlett Johansson
 ===================
@@ -694,6 +787,7 @@ Numero de atores: 1
 ===================
 Titulo: Guerra dos Mundos
 Ano: 2005
+Diretor: Steven Spielberg
 Numero de atores: 1
     Ator 1: Tom Cruise
 ===================
@@ -701,6 +795,7 @@ Numero de atores: 1
 ===================
 Titulo: Missão Impossível 2
 Ano: 2000
+Diretor: John Woo
 Numero de atores: 1
     Ator 1: Tom Cruise
 ===================
@@ -708,6 +803,7 @@ Numero de atores: 1
 ===================
 Titulo: Ponte dos Espiões
 Ano: 2015
+Diretor: Steven Spielberg
 Numero de atores: 1
     Ator 1: Tom Hanks
 ===================
@@ -715,6 +811,7 @@ Numero de atores: 1
 ===================
 Titulo: O Terminal
 Ano: 2004
+Diretor: Steven Spielberg
 Numero de atores: 1
     Ator 1: Tom Hanks
 ===================
@@ -722,6 +819,7 @@ Numero de atores: 1
 ===================
 Titulo: Sully: O Herói do Rio Hudson
 Ano: 2016
+Diretor: Clint Eastwood
 Numero de atores: 1
     Ator 1: Tom Hanks
 ===================
@@ -729,6 +827,7 @@ Numero de atores: 1
 ===================
 Titulo: Kill Bill: Vol. 1
 Ano: 2003
+Diretor: Quentin Tarantino
 Numero de atores: 1
     Ator 1: Uma Thurman
 ===================
@@ -736,9 +835,11 @@ Numero de atores: 1
 ===================
 Titulo: Inimigo do Estado
 Ano: 1998
+Diretor: Tony Scott
 Numero de atores: 1
     Ator 1: Will Smith
 ===================
 
 Total de atores: 38
 Total de filmes: 100
+Total de diretores: 18

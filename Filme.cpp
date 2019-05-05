@@ -70,8 +70,7 @@ string Filme::toString() {
     stringstream ss;
     ss << "===================" << endl;
     ss << "Titulo: " << getNome() << endl;
-    ss << "Ano: " << getAno() << endl;
-    if(diretor != nullptr) ss << "Diretor: " << getDiretor()[0].getNome() << endl;
+    ss << "Ano: " << getAno() << endl;ss << "Diretor: " << getDiretor()[0].getNome() << endl;
     ss << "Numero de atores: " << getNumAtores() << endl;
     for(unsigned int i = 0; i < num_atores; i++) 
         ss << "    Ator " << i+1 << ": " << atores[i][0].getNome() << endl;

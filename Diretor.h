@@ -9,7 +9,7 @@ class Diretor {
         string nome;
         string* filmes;
     public:
-        Diretor(string N, int filmesSize);
+        Diretor(string N);
         string getNome();
 };
 

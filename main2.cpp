@@ -197,6 +197,7 @@ int main() {
                         if(indexFilmes == 0) {
                             filmes[indexFilmes] = new Filme(filmesArq[i][0], anoDoFilme[i][0]);
                             filmes[indexFilmes][0].adicionarDiretor(diretores[indexDiretores]);
+                            cout << "Criei um filme com o ptr diretor = " << diretores[indexDiretores] << endl;
                             indexFilmes++;
                         }
                         else {
@@ -206,11 +207,15 @@ int main() {
                             if(filmePtr == nullptr) {
                                 filmes[indexFilmes] = new Filme(filmesArq[i][0], anoDoFilme[i][0]);
                                 filmes[indexFilmes][0].adicionarDiretor(diretores[indexDiretores]);
+                                cout << "Criei um filme com o ptr diretor = " << diretores[indexDiretores] << endl;
                                 indexFilmes++;
                             }
                             else {
+                                // -- ver se o ator ja nao esta no filme
                                 if(filmePtr[0].getDiretor() == nullptr) {
                                     filmePtr[0].adicionarDiretor(diretores[indexDiretores]);
+                                    // cout << "Adicionei o ptr diretor = " << diretores[indexDiretores] << " a um filme" <<endl;
+                                    // cout << "Agora o ptr diretor desse filme vale " << filmePtr[0].getDiretor() << endl;
                                 }
                                 else cout << "FATAL ERROR - FILME JA POSSUI UM DIRETOR" << endl;
                             }
@@ -235,7 +240,9 @@ int main() {
     // }
     
     for(int i = 0; i < indexFilmes; i++) {
+        cout << "Estou no filme " << i << endl;
         cout << filmes[i][0].toString() << endl;
+        if(i == 15) break;
     }
     cout << "Total de atores: " << indexAtores << endl;
     cout << "Total de filmes: " << indexFilmes << endl;

@@ -15,4 +15,7 @@
 
 ./*.o
 
+nbproject/
+nbproject/*
+
 # End of https://www.gitignore.io/api/visualstudiocode
