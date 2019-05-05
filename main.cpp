@@ -99,6 +99,7 @@ void atualizarArquivo() {
 
 int main() {
     // -- rotina de teste das classes criadas --
+    // ** rotina desnecessaria atualmente **
     // Ator* oAtorzaoPesado = new Ator("KEVI O CHRIS");
     // Ator* atorDoB = new Ator("BROTA NA PENHA MEU AMOR E SOBE NO MEU PAU");
     // Diretor* diretorzao = new Diretor("RTSHEIK EH GOXTOSO");
@@ -132,6 +133,7 @@ int main() {
     }
 
     // -- contador de atores e diretores pra criacao de array
+    // ** ideia abaixo foi descontinuada **
     // int totalAtores = -1;
     // char buf[GETLINESIZE];
     // while(BDAtores.good()) {
@@ -150,6 +152,8 @@ int main() {
 
     // cout << totalDiretores << endl;
     // BDDiretores.seekg(0, ios_base::beg);
+
+    // -- variaveis gerais de uso do programa, principalmente de uso para leitura do arquivo
 
     Ator** atores = (Ator**) malloc(sizeof(Ator*));
     int indexAtores = 0;
@@ -171,6 +175,8 @@ int main() {
     int indexFilmesArq = 0;
     int stop = 0;
     Filme* filmePtr;
+
+    // -- obtendo atores do arquivo
     while(BDAtores.good()) {
         BDAtores.get(buf[0]);
         if(buf[0] == '#') {
@@ -218,7 +224,6 @@ int main() {
                                 indexFilmes++;
                             }
                             else {
-                                // -- ver se o ator ja nao esta no filme
                                 if(!filmePtr[0].consultarAtor(nome)) filmePtr[0].adicionarAtor(atores[indexAtores]);
                             }
                         }
@@ -235,6 +240,10 @@ int main() {
     }
     BDAtores.close();
 
+    // -- os filmes sao criados na medida em que vao sendo lidos do arquivo
+
+    // -- ajustando o valor de variaveis para sua reutilizacao
+
     filmesArq = (string**) malloc(sizeof(string*));
     filmesArqBuf = nullptr;
     anoDoFilme = (string**) malloc(sizeof(string*));
@@ -242,6 +251,9 @@ int main() {
 
     indexFilmesArq = 0;
     stop = 0;
+
+    // -- obtendo os diretores do arquivo
+
     while(BDDiretores.good()) {
         BDDiretores.get(buf[0]);
         if(buf[0] == '#') {
@@ -323,6 +335,8 @@ int main() {
     // cout << "Total de filmes: " << indexFilmes << endl;
     // cout << "Total de diretores: " << indexDiretores << endl;
 
+    // -- variaveis utilizadas pelo menu e suas funcoes
+
     Diretor* newDiretor;
     string diretorNomeBuf;
     Filme* newFilme;
@@ -344,6 +358,7 @@ int main() {
     ano.resize(4);
 
     int opt;
+    // -- menu e suas funcoes abaixo
     while(1) {
         cout << "Total de filmes: " << indexFilmes << endl;
         cout << "Total de atores: " << indexAtores << endl;
@@ -477,6 +492,8 @@ int main() {
             cout << "Saindo..." << endl;
             return 0;
             break;
+        // -- opcao de testes do menu
+        // ** removido da versao final **
         // case 7:
         //     for(int i = 0; i < indexAtores; i++) {
         //         cout << atores[i][0].getNome() << endl;
